@@ -10,7 +10,7 @@ $ cargo install --git https://github.com/jgardona/roll
 ### Use
 
 ```
-$ ./toss -h
+$ ./roll -h
 This command exists to help roll dices in D&D games.
 The following are implemented: d4, d6, d8, d10, d20.
 
@@ -24,4 +24,11 @@ Options:
   -h, --help     Print help
   -V, --version  Print version
 
+$ ./roll d4 3
+
+Processing your results
+
+⚄  1,1 ⚄  2,1 ⚄  3,1 
+
+Total of rolls: 3
 ```
