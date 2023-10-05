@@ -4,7 +4,7 @@ Roll is a cli to help people who plays Dangeons and Dragons. It implements many 
 ### Install
 
 ```
-$ cargo install --git https://github.com/jgardona/toss
+$ cargo install --git https://github.com/jgardona/roll
 ```
 
 ### Use
