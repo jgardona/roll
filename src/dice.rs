@@ -20,24 +20,24 @@ fn create_distribution(dtype: DiceType) -> rand::distributions::Uniform<usize> {
     }
 }
 
-fn toss_dice(distribution: rand::distributions::Uniform<usize>, amount: usize) -> Vec<usize> {
+fn roll_dice(distribution: rand::distributions::Uniform<usize>, amount: usize) -> Vec<usize> {
     let rng = rand::thread_rng();
     let results: Vec<usize> = rng.sample_iter(distribution).take(amount).collect();
     results
 }
 
-pub fn get_toss_results(dtype: DiceType, amount: usize) -> Vec<usize> {
+pub fn get_roll_results(dtype: DiceType, amount: usize) -> Vec<usize> {
     let distr = create_distribution(dtype);
-    toss_dice(distr, amount)
+    roll_dice(distr, amount)
 }
 
 #[cfg(test)]
 mod tests {
-    use super::{get_toss_results, DiceType};
+    use super::{get_roll_results, DiceType};
 
     #[test]
-    fn test_get_toss_results() {
-        let results = get_toss_results(DiceType::D4, 4);
+    fn test_get_roll_results() {
+        let results = get_roll_results(DiceType::D4, 4);
         dbg!(&results);
         assert_eq!(4, results.len());
     }
