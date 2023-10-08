@@ -1,6 +1,6 @@
 [package]
 name = "roll"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "This command exists to help roll dices in D&D games.\nThe following are implemented: d4, d6, d8, d10, d20."
 

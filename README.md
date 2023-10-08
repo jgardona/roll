@@ -1,5 +1,5 @@
 # Roll
-Roll is a cli to help people who plays Dangeons and Dragons. It implements many dice types: d4, d6, d8, d10, d20.
+Roll is a cli to help people who plays **Dangeons and Dragons**. It implements many dice types: **d4, d6, d8, d10, d20**.
 
 ### Install
 
@@ -28,7 +28,7 @@ $ ./roll d4 3
 
 Processing your results
 
-⚄  1,1 ⚄  2,1 ⚄  3,1 
+⚄ 1,1 ⚄ 2,1 ⚄ 3,1 
 
 Total of rolls: 3
 ```

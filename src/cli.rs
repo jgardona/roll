@@ -23,7 +23,7 @@ pub fn execute() -> Result<()> {
 
     for (i, e) in results.iter().enumerate() {
         let index = i + 1;
-        print!("⚄  {index},{e} ");
+        print!("⚄ {index},{e} ");
     }
 
     let total: usize = results.iter().sum();
