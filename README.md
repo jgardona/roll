@@ -1,20 +1,20 @@
-# Roll
-Roll is a cli to help people who plays **Dangeons and Dragons**. It implements many dice types: **d4, d6, d8, d10, d20**.
+# Rolls
+Rolls is a cli to help people who plays **Dangeons and Dragons**. It implements many dice types: **d4, d6, d8, d10, d20**.
 
 ### Install
 
 ```
-$ cargo install roll
+$ cargo install rolls
 ```
 
 ### Use
 
 ```
-$ ./roll -h
+$ ./rolls -h
 This command exists to help roll dices in D&D games.
 The following are implemented: d4, d6, d8, d10, d20.
 
-Usage: roll <DICES> <AMOUNT>
+Usage: rolls <DICES> <AMOUNT>
 
 Arguments:
   <DICES>   The type of dice to roll [possible values: d4, d6, d8, d10, d20]
@@ -24,7 +24,7 @@ Options:
   -h, --help     Print help
   -V, --version  Print version
 
-$ ./roll d4 3
+$ ./rolls d4 3
 
 Processing your results
 
