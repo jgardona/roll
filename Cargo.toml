@@ -1,8 +1,14 @@
 [package]
 name = "roll"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "This command exists to help roll dices in D&D games.\nThe following are implemented: d4, d6, d8, d10, d20."
+authors = ["Julio Gardona <jcbritobr@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/jgardona/roll"
+license = "MIT"
+keywords = ["random", "dices", "game", "cli"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
