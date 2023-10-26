@@ -23,5 +23,5 @@ opt-level = "z"
 panic = "abort"
 
 [dev-dependencies]
-assert_cmd = "*"
-predicates = "*"
+assert_cmd = "2.0.12"
+predicates = "3.0.4"
