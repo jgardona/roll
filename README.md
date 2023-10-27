@@ -1,4 +1,7 @@
 # Rolls
+
+![](images/dddices.jpg)
+
 Rolls is a cli to help people who plays **Dangeons and Dragons**. It implements many dice types: **d4, d6, d8, d10, d20**.
 
 ### Install
